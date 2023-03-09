@@ -1,0 +1,53 @@
+body {
+  background-color: #9fd4ca !important;
+  min-width: 100%;
+  min-height: 100%;
+}
+.imagenCv {
+  border-radius: 50%;
+  height: 21rem;
+  width: 19rem;
+}
+.containerPresentacion {
+
+
+  transform: skewY(-3deg);
+  transform-origin: 100%;
+  width: 100vh;
+  background-color: rgba(243, 180, 97, 0.941);
+  min-width: 100%;
+  min-height: 100%;
+
+}
+.rowSobreMi {
+  min-width: 100%;
+}
+.colPresentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.colWomanDev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.womanDevPic {
+  height: 30rem;
+  width: 30rem;
+
+  
+}
+.miNombre {
+  font-family: "Gill Sans";
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+}
+.miCarrera {
+  font-family: "Gill Sans";
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
+}

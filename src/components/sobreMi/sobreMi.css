@@ -1,0 +1,46 @@
+.containerSobreMi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-color: #ffffff;
+    border-width: 20%;
+    max-width: fit-content;
+    
+}
+.colFotCv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0%;
+}
+
+.fotCv{
+    height: 50%;
+    width: 50%;
+    min-height: 100%;
+    margin: 0;
+
+}
+
+.colSobreMi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right:5%;
+    padding: 0;
+    padding-top: 5%;
+    color: rgba(72, 72, 71, 0.941);
+    font-family: "Gill Sans";
+    font-size: 1.3rem;
+}

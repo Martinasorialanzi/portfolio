@@ -1,0 +1,92 @@
+
+.container1 {
+  /* height: max-content; */
+  width: 100vh;
+  background-color: rgb(129, 129, 128);
+  /* height: 8em; */
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+
+.container2:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    height: max-content;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-3deg);
+    transform-origin: 0% 100%;
+    /* width: 100vh; */
+    z-index: -1;
+  background-color: rgb(129, 129, 128);
+
+  min-width: 100%;
+  min-height: 100%;
+  margin-top: 2%;
+  
+}
+
+.textTecnologias{
+
+    transform: rotate(0deg); 
+    padding-top: 3%;
+    font-family: "Gill Sans";
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+.nombreTecnologia{
+  font-family: "Gill Sans";
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+
+}
+
+.cardIcon{
+  background-color: aqua;
+  height:5em;
+  width: 5em;
+}
+.cardBody{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(243, 180, 97, 0.941);
+  border-color:rgb(57, 57, 56);
+
+
+}
+
+.imagenIcon{
+  height: 27%;
+  width: 27%;
+  margin: 1em;
+  margin-bottom:1.5em ;
+}
+
+
+.imagenIcon2{
+  height: 40%;
+  width: 40%;
+  /* margin: 1em; */
+  margin-top: 0em;
+
+
+}
+.imagenIcon3{
+  height: 40%;
+  width: 40%;
+  margin: 1em;
+  margin-top: 1em;
+
+}
+
+.stackIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
