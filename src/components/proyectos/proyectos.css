@@ -1,0 +1,19 @@
+ .containerProyectos{
+    display: flex;
+    justify-content: center;
+}
+
+.divTituloMisProyectos{
+    background-color:rgba(243, 180, 97, 0.941);
+    max-width:max-content;
+    transform: skewX(4deg);
+    transform-origin: 0% 100%;
+    text-align: center;
+    text-justify:distribute-all-lines;
+    font-family: "Gill Sans";
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;
+
+}

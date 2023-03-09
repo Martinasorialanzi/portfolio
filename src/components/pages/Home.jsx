@@ -6,6 +6,7 @@ import Presentacion from '../presentacion/Presentacion'
 import SobreMi from '../sobreMi/SobreMi'
 import Tecnologias from '../tecnologias/Tecnologias'
 import Proyectos from '../proyectos/Proyectos'
+import Contacto from '../contacto/Contacto'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
 <SobreMi/>
 <Tecnologias/>
 <Proyectos/>
+<Contacto/>
     </>
   )
 }
