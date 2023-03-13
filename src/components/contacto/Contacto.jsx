@@ -15,6 +15,8 @@ const Contacto = () => {
     }, (error) => {
         console.log(error.text);
     });
+
+    e.target.reset()
   }
 
   return (
