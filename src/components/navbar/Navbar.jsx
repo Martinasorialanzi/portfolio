@@ -1,35 +1,43 @@
-import React from 'react'
-import { Navbar, Container,NavDropdown,Nav } from 'react-bootstrap'
-import "../navbar/navbar.css"
-
+import React, { useState } from "react";
+import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
+import "../navbar/navbar.css";
 
 const Navegador = () => {
+  const [colorNav, setColorNav] = useState(false);
+
+  const changeColor = () => {
+    if (window.scrollY >= 20) {
+      setColorNav(true);
+    } else {
+      setColorNav(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
-<Navbar expand="lg">
+    <Navbar
+      expand="md"
+      fixed="top"
+      className={colorNav ? "navbar navbar-bg" : "navbar"}
+    >
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/" className="tituloNav">
+          &lt;/ martina soria lanzi&gt;
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav className="me-auto"></Nav>
+          <Nav className="">
+            <Nav.Link href="#sobreMi">Sobre Mi</Nav.Link>
+            <Nav.Link href="#tecnologias">Tecnologias</Nav.Link>
+            <Nav.Link href="#proyectos">Mis Proyectos</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  )
-}
+  );
+};
 
-
-export default Navegador
+export default Navegador;

@@ -6,7 +6,7 @@ import fotCv from "../../assets/img/fotCv.jpg"
 const SobreMi = () => {
   return (
     <>
-    <Container className='containerSobreMi'>
+    <Container id="sobreMi" className='containerSobreMi'>
     <Row className='p-0'>
         <Col className='colFotCv m-0 p-0' xs={12} sm={12} md={6}>
         <img src={fotCv} className="fotCv"></img>

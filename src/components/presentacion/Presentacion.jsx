@@ -9,7 +9,7 @@ import { MdOutlineComputer } from 'react-icons/md';
 const Presentacion = () => {
   return (
     <>
-      <Container className=" container containerPresentacion m-0 "width={100}>
+      <Container className=" container containerPresentacion" width={100}>
         <Row className="m-0 p-0 rowSobreMi " height={100}  width={100}>
           <Col xl={6} md={6} sm={12} xs={12} className="colPresentacion">
             <Row>

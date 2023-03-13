@@ -5,7 +5,7 @@ import "../proyectos/proyectos.css"
 const Proyectos = () => {
   return (
     <>
-    <Container className='containerProyectos'>
+    <Container id="proyectos" className='containerProyectos'>
         <div className='divTituloMisProyectos m-3 mt-4 '>
     {/* <p>Mis Proyectos</p> */}
 

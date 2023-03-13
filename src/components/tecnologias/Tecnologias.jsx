@@ -14,7 +14,7 @@ import sqlIcon from "../../assets/img/icons/sqlIcon.png"
 const Tecnologias = () => {
   return (
     <>
-      <Container className="container1 p-2 ">
+      <Container id="tecnologias" className="container1 p-2 ">
         <div className="container2 p-2 pb-3 ">
           <p className="textTecnologias text-center mb-4 mt-0">TECNOLOGÍAS</p>
           <Row className="justify-content-center" >

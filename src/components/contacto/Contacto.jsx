@@ -32,7 +32,7 @@ const Contacto = () => {
 
   return (
     <>
-      <Container className="container">
+      <Container id="contacto" className="container">
         <div className="divTextContacto">
 
         ¿QUERES OFRECERME HACERME UNA OFERTA, DARME ALGÚN FEEDBACK O SIMPLEMENTE

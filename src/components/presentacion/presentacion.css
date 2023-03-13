@@ -10,7 +10,7 @@ body {
 }
 .containerPresentacion {
 
-
+ margin-top: 10%;
   transform: skewY(-3deg);
   transform-origin: 100%;
   width: 100vh;

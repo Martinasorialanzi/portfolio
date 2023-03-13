@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #9fd4ca;
+  color: rgba(72, 72, 71, 0.941);
+  font-family: "Gill Sans";
+  font-size: 1.3rem;
+}
+
+.navbar-bg {
+  background-color: #c1d1ceef;
+}
