@@ -7,7 +7,7 @@ import SobreMi from '../sobreMi/SobreMi'
 import Tecnologias from '../tecnologias/Tecnologias'
 import Proyectos from '../proyectos/Proyectos'
 import Contacto from '../contacto/Contacto'
-
+import Footer from '../footer/Footer'
 const Home = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const Home = () => {
 <Tecnologias/>
 <Proyectos/>
 <Contacto/>
+<Footer/>
     </>
   )
 }

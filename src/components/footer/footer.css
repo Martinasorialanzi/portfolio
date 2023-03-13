@@ -1,0 +1,11 @@
+.containerFooter{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(243, 180, 97, 0.941)!important;
+    min-width: 100%;
+    margin: 0;
+    padding: 0.3em;
+}
