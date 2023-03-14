@@ -8,4 +8,13 @@
     min-width: 100%;
     margin: 0;
     padding: 0.3em;
+    
+}
+
+
+.txDescargarCv{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Gill Sans";
+    font-size: 1.2rem;
 }
