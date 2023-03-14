@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Card, Row, Stack } from "react-bootstrap";
+import { Col, Container, Row, Stack } from "react-bootstrap";
 import "../tecnologias/tecnologias.css";
 import reactIcon from "../../assets/img/icons/reactIcon.png"
 import bootstrapIcon from "../../assets/img/icons/bootstrapIcon.png"

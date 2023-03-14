@@ -1,10 +1,10 @@
 import React from "react";
-import fotCv from "../../assets/img/fotCv.jpg";
+
 import womanDev from "../../assets/img/Set_of_programmers_02_01.jpg";
 import { Col, Container, Row, Stack } from "react-bootstrap";
 import "./presentacion.css";
 import { Link } from "react-router-dom";
-import { MdOutlineComputer } from 'react-icons/md';
+
 
 const Presentacion = () => {
   return (
