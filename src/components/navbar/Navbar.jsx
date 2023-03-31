@@ -31,7 +31,7 @@ const Navegador = () => {
           <Nav className="">
             <Nav.Link href="#sobreMi">Sobre Mi</Nav.Link>
             <Nav.Link href="#tecnologias">Tecnologias</Nav.Link>
-//             <Nav.Link href="#proyectos">Mis Proyectos</Nav.Link>
+           {/*<Nav.Link href="#proyectos">Mis Proyectos</Nav.Link>*/}
             <Nav.Link href="#contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
